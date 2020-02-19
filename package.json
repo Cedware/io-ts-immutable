@@ -1,0 +1,53 @@
+{
+  "name": "io-ts-immutable",
+  "version": "0.1.0",
+  "description": "A collection of io-ts codecs for the immutable collections from immutable-js",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "author": "Cedric Krause",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cedware/io-ts-immutable"
+  },
+  "bugs": {
+    "url": "https://github.com/Cedware/io-ts-immutable/issues"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "prepublish": "yarn build"
+  },
+  "peerDependencies": {
+    "fp-ts": "^2.0.0",
+    "immutable": "^4.0.0-rc.12",
+    "io-ts": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.7.5",
+    "fp-ts": "^2.0.0",
+    "immutable": "^4.0.0-rc.12",
+    "io-ts": "^2.0.0"
+  },
+  "dependencies": {
+
+  },
+  "tags": [
+    "io-ts",
+    "immutable",
+    "immutablejs",
+    "immutable-js",
+    "types",
+    "codec"
+  ],
+  "keywords": [
+    "io-ts",
+    "immutable",
+    "immutablejs",
+    "immutable-js",
+    "types",
+    "codec"
+  ]
+}
