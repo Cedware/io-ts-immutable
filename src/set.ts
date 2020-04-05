@@ -6,7 +6,7 @@ import {isLeft} from "fp-ts/lib/Either";
  * A codec for the Set type from immutable.
  * This codec decodes a javascript array into an immutable set, and it encodes the immutable set to a javascript array
  * @param codec The codec for the set items.
- * @since 0.1.0
+ * @since 0.2.0
  */
 export function set<C extends t.Mixed>(codec: C) {
     type Item = t.TypeOf<C>;
